@@ -66,3 +66,25 @@ footer {
     margin-top: 30px;
 }
 
+/*SERVICIOS*/
+/*Contenedor general*/
+.container-servicios {
+    background-color: #f7b3f9;
+    padding: 60px 20px;
+}
+
+/*Contenedor de los cuadros*/
+.cuadros-servicios {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 100%;
+} 
+
+/*Cuadro individual*/
+.cuadro-servicio {
+    background-color: #f2f2f2;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
