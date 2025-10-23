@@ -114,7 +114,7 @@ footer {
 /*Contenedor general*/
 .container-nosotros {
     background-color: #f7b3f9;
-    padding: auto auto;
+    padding: 60px 20px;
 }
 
 /*Contenedor de los cuadros*/
@@ -130,4 +130,67 @@ footer {
     padding: 40px 20px;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+/*CONTACTO*/
+/* Contenedor general */
+.container-form {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f7b3f9; /* color suave de fondo */
+}
+
+/* Formulario */
+.form-contacto {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título */
+.form-contacto h2 {
+  text-align: center;
+  color: #5b2c6f;
+  margin-bottom: 10px;
+}
+
+/* Campos */
+.form-contacto label {
+  font-weight: 600;
+  color: #333;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.form-contacto textarea {
+  resize: none;
+  height: 90px;
+}
+
+/* Botón */
+.form-contacto button {
+  background-color: #b85cff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.form-contacto button:hover {
+  background-color: #9d44ff;
 }
