@@ -88,3 +88,24 @@ footer {
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.1);
 }
+
+/*PORTAFOLIO*/
+/*Contenedor general*/
+.container-portafolio {
+    display: flex;
+    justify-content: center;
+}
+
+/*Contenedor de los cuadros*/
+.cuadros-portafolio {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.cuadro-portafolio {
+  background-color: #f0f0f0;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+}
