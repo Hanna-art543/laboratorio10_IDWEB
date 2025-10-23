@@ -9,6 +9,8 @@ body {
 /*Header estilos*/
 header {
     background-color: black;
+    color: white;
+    padding: 15px 0;
 }
 
 ul li {
@@ -19,23 +21,48 @@ ul li {
 nav a {
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    padding: 6px 10px; 
+    border-radius: 5px;
 }
 
-li a:hover {
+nav a:hover {
     color: purple;
     background-color: white;
-    border-radius: 5px;
 }
 
 /*Main*/
 main {
     background-color: rgb(248, 149, 241);
+    padding: 40px 0;
 }
 
+/*Contenedor principal*/
 .container-principal {
+    padding: 40px 20px;
+}
+
+/*Cuadros individuales*/
+.cuadros {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin-top: 30px;
 }
 
 .cuadro-index {
-    grid-template-columns: 50px auto 20px;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba (0,0,0,0.1);
 }
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+}
+
