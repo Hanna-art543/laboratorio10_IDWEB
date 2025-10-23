@@ -109,3 +109,25 @@ footer {
   border-radius: 8px;
   text-align: center;
 }
+
+/*NOSOTROS*/
+/*Contenedor general*/
+.container-nosotros {
+    background-color: #f7b3f9;
+    padding: auto auto;
+}
+
+/*Contenedor de los cuadros*/
+.cuadros-nosotros {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+} 
+
+/*Cuadro individual*/
+.cuadro-nosotros {
+    background-color: #f2f2f2;
+    padding: 40px 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
